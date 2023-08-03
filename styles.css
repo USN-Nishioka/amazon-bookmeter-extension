@@ -1,0 +1,23 @@
+.bookmeter-link {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 0.5em 1em;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    color: white;
+    background-color: #10B981; /* Green */
+    border-radius: 0.25rem;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.2s ease;
+}
+
+.bookmeter-link:hover {
+    background-color: #059669; /* Darker green */
+}
+
+.bookmeter-link:focus {
+    outline: none;
+}

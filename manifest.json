@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "じゃんぷメーター",
+    "version": "1.0.0",
+    "description": "Amazon商品ページに読書メーターへのリンクを追加します",
+    "content_scripts": [
+        {
+            "matches": ["https://www.amazon.co.jp/*/dp/*"],
+            "js": ["content.js"],
+            "css": ["styles.css"]
+        }
+    ],
+    "host_permissions": [
+        "https://*.amazon.co.jp/*"
+    ]
+}
+
